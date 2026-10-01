@@ -55,13 +55,13 @@
         "all:watch": "concurrently -r -n server-api,storage-main -c \"yellow.bold,blue.bold,green.bold\" \"npm:watch --prefix server-api\" \"npm:watch --prefix storage-main\""
     },
     "devDependencies": {
-        "@typescript-eslint/eslint-plugin": "^5.21.0",
-        "@typescript-eslint/parser": "^5.21.0",
-        "concurrently": "^7.1.0",
+        "@typescript-eslint/eslint-plugin": "^8.70.1",
+        "@typescript-eslint/parser": "^8.70.1",
+        "concurrently": "^10.0.5",
         "eslint": "^8.14.0",
-        "eslint-config-prettier": "^8.5.0",
-        "husky": "^7.0.4",
-        "lint-staged": "^12.4.1",
-        "prettier": "^2.6.2"
+        "eslint-config-prettier": "^10.1.8",
+        "husky": "^9.1.7",
+        "lint-staged": "^17.5.1",
+        "prettier": "^3.9.9"
     }
 }
